@@ -8,10 +8,10 @@ weight:    90
 excerpt:   Joints
 ---
 
-<img src="assets/Picture2.jpg"></img>
-<img src="assets/Picture3.jpg"></img>
-<img src="assets/Picture4.jpg"></img>
-<img src="assets/Picture5.jpg"></img>
+<img src="/assets/Picture2.jpg"></img>
+<img src="/assets/Picture3.jpg"></img>
+<img src="/assets/Picture4.jpg"></img>
+<img src="/assets/Picture5.jpg"></img>
 <ul>
 <li>A new joint, called a prosthesis can be made of plastic, metal, or both. It may be cemented into place or not cemented, so that your bone will grow into it. Both methods may be combined to keep the new joint in place.</li>
 <li>Cemented prosthesis are typically used in older adults to help fortify possible brittle bones. </li>
