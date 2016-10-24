@@ -1,26 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
-<!--
-   __ ___   __  __               __
-  / // (_) / /_/ /  ___ _______ / /
- / _  / / / __/ _ \/ -_) __/ -_)_/ 
-/_//_/_/  \__/_//_/\__/_/  \__(_)  
-
-  _      ____        __                                              __     ___ 
- | | /| / / /  ___ _/ /_  ___ ________   __ _____  __ __  __ _____  / /____/__ \
- | |/ |/ / _ \/ _ `/ __/ / _ `/ __/ -_) / // / _ \/ // / / // / _ \/ __/ _ \/__/
- |__/|__/_//_/\_,_/\__/  \_,_/_/  \__/  \_, /\___/\_,_/  \_,_/ .__/\__/\___(_)  
-                                       /___/                /_/                 
--->
+<html lang="{% if page.language %}{{ page.language | downcase }}{% else %}{{ site.language | downcase }}{% endif %}">
 {% include head.html %}
-{% include nav.html %}
-<!-- Wrapper -->
-<div id="wrapper">
 
-    <body>
+<body class="home-template">
+    <div class="site-wrapper">
+        {% include header.html %}
         {{ content }}
-    </body>
-    {% include footer.html %}
-</div>
+        {% include footer.html %}
+    </div>
+</body>
 
+<script src="{{ site.github.url | prepend: site.baseurl}}/js/global.js"></script>
+</script>
 </html>

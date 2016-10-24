@@ -1,32 +1,37 @@
 ---
 layout: default
 ---
-        <!-- Header -->
-        <header id="header">
-        </header>
-        <div id="main">
-            <section id="content" class="main">
-                <span class="image main" style="text-align: center;"><img src="{{ page.header-img }}" alt="" />
-                    <div style="color: white; position:absolute; bottom: 5px; left: 5px; width: 100%; height: 70%">
-                    <h1 style="color: white; font-weight: bold;margin-bottom:0px;">{{ page.title }}</h1>
-                    {% if page.subtitle %}
-                    <h2 style="color: white;">{{ page.subtitle }}</h2>
-                    {% endif %}
-                    <h4 class="hidden-xs" style="color: white;">
-                    Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}
-                    <br>
-                    Tags: {% for tag in page.tags %}<i class="fa fa-tag"></i> {{ tag }} {% endfor %}
-                    <br>
-                    {% assign minutes = content | number_of_words | divided_by: site.wpm %}
-                    <i class="fa fa-clock-o"></i>&nbsp;{% if minutes == 0 %}{% assign minutes = 1 %}{% endif %}
-                    {{ minutes }} minute read
-                    </h4>
-                </div>
-                </span>
-                <div class="spotlight">
-                    <div class="content">
-                        <p>{{ content }}</p>
-                    </div>
-                </div>
+<main class="content" role="main">
+    <article class="post single-post" itemscope itemtype="http://schema.org/BlogPosting">
+
+        <header class="post-header short-diver">
+            <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+            <section class="post-meta">
+                <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+                on
+                {% for tag in page.tags limit:5 %}
+                <span>{{ tag }}</span>
+                {% endfor %}
             </section>
-        </div>
+        </header>
+
+        <section class="post-content short-diver" itemprop="articleBody">
+            {{content}}
+        </section>
+
+        <footer class="post-footer">
+            {% include authorinfo.html param=page.author %}
+        </footer>
+
+        {% if page.comments %}
+    		<div class="comments">
+    			<a href="javascript:;" class="view-comments"><i class="fa fa-comments"></i>View Comments...</a>
+    			<div id="disqus_thread"></div>
+    		</div>
+    		{% endif %}
+
+    </article>
+</main>
+
+{% include photoswipe.html %}
+{% include post_scripts.html %}
