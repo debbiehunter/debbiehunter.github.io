@@ -1,6 +1,6 @@
 ---
 layout: default
-title: What has happened to my Joint
+title: Team
 description:What has happened to my Joint
 ---
 <header id="header">
