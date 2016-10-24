@@ -1,7 +1,11 @@
 ---
-layout: default
-title: Team
-description:What has happened to my Joint
+layout:    page
+permalink: "/joints/"
+author:    Debbie Hunter
+title:     Why joints need replacment
+menutitle: Joints
+weight:    90
+excerpt:   Joints
 ---
 
 <header id="header">
