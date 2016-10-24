@@ -1,6 +1,6 @@
 ---
 layout:    page
-permalink: "/what/"
+permalink: "/aboutjoint/"
 author:    Debbie Hunter
 title:     About joint replacement
 menutitle: About Replacement
