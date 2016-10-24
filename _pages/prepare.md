@@ -8,7 +8,6 @@ weight:    90
 excerpt:   Joints
 ---
 
-<H1>Preparing for Joint Surgery</H1>
 <h2>Preparing yourself</h2>
 You want to face surgery with the strongest and healthiest body possible. To ensure this attention should be made to: 
 <ul>

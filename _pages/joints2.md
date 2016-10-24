@@ -8,10 +8,6 @@ weight:    90
 excerpt:   Joints
 ---
 
-<header id="header">
-        <h1>{{ page.title }}</h1>
-        <p>{{ page.description }}</p>
-</header>
 Joints can be damaged by arthritis and other diseases.
 <ul>
 <li>Arthritis or simply years of use may cause the joint to wear away.</li>

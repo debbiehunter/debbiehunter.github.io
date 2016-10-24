@@ -8,7 +8,6 @@ weight:    90
 excerpt:   Joints
 ---
 
-<H1>What has happened to my Joint</H1>
 <H2>Joints can be damaged by arthritis and other diseases.</H2>
 <ul>
 <li>Arthritis or simply years of use may cause the joint to wear away.</li>
