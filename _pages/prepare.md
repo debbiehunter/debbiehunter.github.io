@@ -1,6 +1,6 @@
 ---
 layout:    page
-permalink: "/about/"
+permalink: "/prepare/"
 author:    Debbie Hunter
 title:     Preparing for Joint Surgery
 menutitle: Surgery Preparation
