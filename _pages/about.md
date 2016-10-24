@@ -1,31 +1,17 @@
 ---
-layout:    about
+layout:    page
 permalink: "/about/"
-author:    jwillmer
-keywords:  about person demo example
-title:     About Jens Willmer
-menutitle: About
+author:    Debbie Hunter
+title:     About joint replacement
+menutitle: About Replacement
 weight:    90
-excerpt:   This page contains the curriculum vitae (CV) of the author.
+excerpt:   Joints
 ---
 
-## Profile
-
-Integer sit amet libero non sapien sagittis dapibus. Phasellus gravida quam ac nisl finibus dictum. Pellentesque vel orci et nisi pretium tincidunt nec a diam. Vivamus et leo eu lorem congue pellentesque id sed tortor. Nulla et nibh neque. Sed ut fermentum lectus, id rhoncus erat.
-
----
-
-## Skills
-
-- Praesent ac augue imperdiet, interdum purus id, sollicitudin sem.
-- Sed pellentesque urna a magna suscipit volutpat.
-- Donec ultricies lectus non augue dictum hendrerit ac ac lorem.
-- Integer eget dui eu purus luctus posuere in non metus.
-- Nam ac felis eget tortor blandit gravida non et diam.
-
----
-
-## Education
-
-2009 - 2012
-: Mauris vitae velit vel leo suscipit tempus vel vel elit.
+About Joint Replacement: "Pictures"
+<ul>
+<li>A new joint, called a prosthesis can be made of plastic, metal, or both. It may be cemented into place or not cemented, so that your bone will grow into it. Both methods may be combined to keep the new joint in place.</li>
+<li>Cemented prosthesis are typically used in older adults to help fortify possible brittle bones. </li>
+<li>Un-cemented prosthesis are commonly used in younger adults or adults that do not manifest brittle bones. </li>
+<li>Most replaced joints are made of cobalt-chromium alloys. Theses semi metals are hard, tough, corrosion resistant, and strong enough to with stand wear and tear that are necessary for joints.</li>
+</ul>
